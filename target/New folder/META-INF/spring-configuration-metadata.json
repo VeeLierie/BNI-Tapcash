@@ -1,0 +1,42 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "id.co.hanoman.config.YAMLConfig",
+      "name": "tapcash",
+      "type": "id.co.hanoman.config.YAMLConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "id.co.hanoman.config.YAMLConfig",
+      "name": "tapcash.api-key",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "id.co.hanoman.config.YAMLConfig",
+      "name": "tapcash.base-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "id.co.hanoman.config.YAMLConfig",
+      "name": "tapcash.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "id.co.hanoman.config.YAMLConfig",
+      "name": "tapcash.secret-key",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "id.co.hanoman.config.YAMLConfig",
+      "name": "tapcash.username",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "id.co.hanoman.config.YAMLConfig",
+      "name": "tapcash.x-api-key",
+      "type": "java.lang.String"
+    }
+  ]
+}

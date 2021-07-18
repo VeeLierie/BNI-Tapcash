@@ -7,68 +7,23 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @EnableConfigurationProperties
-@ConfigurationProperties("sipatuh")
+@ConfigurationProperties("tapcash")
 
 public class YAMLConfig {
   
-	private String xkey;
-	
-	private String userid;
+	private String username;
 	private String password;
-
-	private String tokenisi;
-	private String urlToken;
-
-	private int timeout;
+	private String apiKey;
+	private String secretKey;
 	private String baseUrl;
+	private String xApiKey;
 
-	public String getXkey() {
-		return xkey;
+	public String getUsername() {
+		return username;
 	}
 
-	public void setXkey(String xkey) {
-		this.xkey = xkey;
-	}
-
-
-	public String getTokenIsi() {
-		return tokenisi;
-	}
-
-	public void setTokenIsi(String tokenisi) {
-		this.tokenisi = tokenisi;
-	}
-
-	public String getUrlToken() {
-		return urlToken;
-	}
-
-	public void setUrlToken(String urlToken) {
-		this.urlToken = urlToken;
-	}
-
-	public int getTimeout() {
-		return timeout;
-	}
-
-	public void setTimeout(int timeout) {
-		this.timeout = timeout;
-	}
- 
-	public String getBaseUrl() {
-		return baseUrl;
-	}
-
-	public void setBaseUrl(String baseUrl) {
-		this.baseUrl = baseUrl;
-	}
-
-	public String getUserid() {
-		return userid;
-	}
-
-	public void setUserid(String userid) {
-		this.userid = userid;
+	public void setUsername(String username) {
+		this.username = username;
 	}
 
 	public String getPassword() {
@@ -77,5 +32,37 @@ public class YAMLConfig {
 
 	public void setPassword(String password) {
 		this.password = password;
+	}
+
+	public String getApiKey() {
+		return apiKey;
+	}
+
+	public void setApiKey(String apiKey) {
+		this.apiKey = apiKey;
+	}
+
+	public String getSecretKey() {
+		return secretKey;
+	}
+
+	public void setSecretKey(String secretKey) {
+		this.secretKey = secretKey;
+	}
+
+	public String getBaseUrl() {
+		return baseUrl;
+	}
+
+	public void setBaseUrl(String baseUrl) {
+		this.baseUrl = baseUrl;
+	}
+
+	public String getxApiKey() {
+		return xApiKey;
+	}
+
+	public void setxApiKey(String xApiKey) {
+		this.xApiKey = xApiKey;
 	}
 }

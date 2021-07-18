@@ -1,6 +1,6 @@
 # prefix for all requests
 server:
-   port: 8093
+   port: 8098
 logging:
    level:
       org.springframework.web: INFO
@@ -18,13 +18,13 @@ spring:
     profiles: prod
 name: prod-YAML
 environment: production
-sipatuh:
-    xkey: 98erk34dj
-    userid: 200
-    password: 123456
-    urlToken: http://BTNSIPATUH/api-dev/umrah/bank/login
-    timeout: 20000
-    baseUrl: http://BTNSIPATUH/api-dev/umrah/bank/  
+tapcash:
+  username : 78193889-1119-4b2e-b441-4f7c0b93cd31
+  password : 9671a306-a4de-4ab9-b2c0-78fb91ad46fb
+  xApiKey : 84876667-0b1d-4433-baae-4e6c8cecd9b1
+  SecretKey : 7f955d2f-e9ff-4ec6-8d12-ff413587a15b
+  timeout: 20000
+  baseUrl: https://apidev.bni.co.id:8066
 
 ---
 
@@ -32,10 +32,10 @@ spring:
     profiles: dev
 name: dev-YAML
 environment: development
-sipatuh:
-    xkey: 98erk34dj
-    userid: 200
-    password: 123456
-    urlToken: http://BTNSIPATUH/api-dev/umrah/bank/login
-    timeout: 20000
-    baseUrl: http://BTNSIPATUH/api-dev/umrah/bank/
+tapcash:
+  username : 78193889-1119-4b2e-b441-4f7c0b93cd31
+  password : 9671a306-a4de-4ab9-b2c0-78fb91ad46fb
+  xApiKey : 84876667-0b1d-4433-baae-4e6c8cecd9b1
+  SecretKey : 7f955d2f-e9ff-4ec6-8d12-ff413587a15b
+  timeout: 20000
+  baseUrl: https://apidev.bni.co.id:8066
